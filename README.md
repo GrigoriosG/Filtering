@@ -3,6 +3,7 @@ The repo contains Matlab code for filtering and smoothing in left invertible, fi
 1. The required rank decompositions which are implemented here using SVD,
 2. The matrix definitions required before the time recursions,
 3. The forwards and backwards time recursions.
+
 The algorithm is implemented for a simple mechanical system with two masses, a spring and a damper driven by two forces. 
 
 ## Installation
