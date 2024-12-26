@@ -1,9 +1,4 @@
 clear all; clc;
-%% Simulation   
-param.gps = true; 
-param.strut = true; 
-param.acc_spr = false; 
-param.acc_unspr = true;
 [z,x_true, w_true, param] = Model(param);
 disp('Simulation completed.')
 %% Inherent delay test and matrix calculations  

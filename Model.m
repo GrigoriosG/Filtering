@@ -1,4 +1,9 @@
 function [z,x, w, param] = Model(param)
+%% Simulation   
+param.gps = true; 
+param.strut = true; 
+param.acc_spr = false; 
+param.acc_unspr = true;
 %% Parameters
 m1=1; m2=1; k=1; c=1; 
 param.dt = 0.03; param.T = 10;
